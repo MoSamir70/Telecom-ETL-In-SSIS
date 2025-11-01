@@ -45,7 +45,7 @@ G --> H[📦 Move CSV to Archive Folder]
 
 <h3 align="center"></h3>
 <p align="center">
-  <img src="etl_pipeline.png" alt="ETL SSIS Pipeline Diagram" width="600"/>
+  <img src="assets/etl_pipeline.png" alt="ETL SSIS Pipeline Diagram" width="600"/>
 </p>
 
 
