@@ -30,7 +30,11 @@ A **telecom company** has requested your expertise as an **ETL Developer** to de
 
 The following diagram shows the complete SSIS ETL workflow for telecom data:
 
-![ETL SSIS Pipeline Diagram](assets/etl_pipeline.png)
+<h3 align="center">📈 SSIS ETL Pipeline for Telecom Data</h3>
+<p align="center">
+  <img src="assets/etl_pipeline.png" alt="ETL SSIS Pipeline Diagram" width="600"/>
+</p>
+
 
 
 ---
