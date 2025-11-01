@@ -43,7 +43,7 @@ F --> G
 G --> H[📦 Move CSV to Archive Folder]
 ```
 
-<h3 align="center">📈 SSIS ETL Pipeline for Telecom Data</h3>
+<h3 align="center"></h3>
 <p align="center">
   <img src="etl_pipeline.png" alt="ETL SSIS Pipeline Diagram" width="600"/>
 </p>
@@ -172,11 +172,11 @@ These KPIs help you **monitor ETL performance** and **data quality** for every f
 
 By completing this project, you will have:
 
-✅  A working **ETL solution using SSIS**
-✅  Automatic **data validation and cleansing**
-✅  Complete **audit trail and KPI monitoring**
-✅  Understanding of **Telecom Data Structures**
-✅  Real-world ETL workflow knowledge
+✅  A working **ETL solution using SSIS**  
+✅  Automatic **data validation and cleansing**  
+✅  Complete **audit trail and KPI monitoring**  
+✅  Understanding of **Telecom Data Structures**  
+✅  Real-world ETL workflow knowledge  
 
 ---
 
