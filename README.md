@@ -1,7 +1,3 @@
-* an **ETL process diagram**,
-* a **table explaining each column meaning**,
-* and a **clear section detailing the KPIs** and how to interpret them.
-
 ---
 
 # 📘 Telecom ETL Project — Garage Education (SSIS Implementation)
@@ -28,6 +24,15 @@ A **telecom company** has requested your expertise as an **ETL Developer** to de
 * The system generates a new **CSV file every 5 minutes**.
 * Each file contains **telecommunication activity data** (e.g., customer events, device information, network cells).
 * You must **extract → validate → transform → load → audit → archive** each file.
+
+---
+
+## 📊 ETL Pipeline Overview
+
+The following diagram shows the complete SSIS ETL workflow for telecom data:
+
+![ETL SSIS Pipeline Diagram](assets/etl_pipeline.png)
+
 
 ---
 
