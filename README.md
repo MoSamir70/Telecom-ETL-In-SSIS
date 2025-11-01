@@ -1,5 +1,6 @@
 
-# 📘 Telecom ETL Project — Garage Education (SSIS Implementation)
+# 📘 Telecom ETL Project
+— Garage Education (SSIS Implementation)
 
 **Source:**
 Adapted from the *Garage Education* YouTube series by **Eng. Mostafa Alaa**.
@@ -26,9 +27,21 @@ A **telecom company** has requested your expertise as an **ETL Developer** to de
 
 ---
 
-## 📊 ETL Pipeline Overview
+## 🧠 ETL Flow — SSIS Pipeline Overview
 
 The following diagram shows the complete SSIS ETL workflow for telecom data:
+
+```mermaid
+flowchart LR
+A[📁 CSV File (Every 5 mins)] --> B[📤 Extract Data (Flat File Source)]
+B --> C[🔍 Transform Data (Derived Column / Lookup)]
+C --> D{✅ Validation Rules Pass?}
+D -->|Yes| E[💾 Load to SQL: Telecom_Transactions]
+D -->|No| F[🚫 Load to SQL: Rejected_Transactions]
+E --> G[🧮 Log KPIs (ETL_Audit_Log)]
+F --> G
+G --> H[📦 Move CSV to Archive Folder]
+```
 
 <h3 align="center">📈 SSIS ETL Pipeline for Telecom Data</h3>
 <p align="center">
@@ -38,6 +51,8 @@ The following diagram shows the complete SSIS ETL workflow for telecom data:
 
 
 ---
+
+
 
 ## 🧾 CSV File Structure
 
@@ -124,24 +139,6 @@ These KPIs help you **monitor ETL performance** and **data quality** for every f
 
 ---
 
-## 🧠 ETL Flow — SSIS Pipeline Overview
-
-Below is a visual representation of the process.
-
-```mermaid
-flowchart LR
-A[📁 CSV File (Every 5 mins)] --> B[📤 Extract Data (Flat File Source)]
-B --> C[🔍 Transform Data (Derived Column / Lookup)]
-C --> D{✅ Validation Rules Pass?}
-D -->|Yes| E[💾 Load to SQL: Telecom_Transactions]
-D -->|No| F[🚫 Load to SQL: Rejected_Transactions]
-E --> G[🧮 Log KPIs (ETL_Audit_Log)]
-F --> G
-G --> H[📦 Move CSV to Archive Folder]
-```
-
----
-
 ## 🧰 SSIS Components Used
 
 | SSIS Component         | Role in Pipeline                                 |
@@ -183,3 +180,7 @@ By completing this project, you will have:
 
 ---
 
+## 👤 Author
+
+**Muhammad Samir**
+GitHub: [@MoSamir70](https://github.com/MoSamir70)
