@@ -180,6 +180,10 @@ By completing this project, you will have:
 
 ---
 
+Arabic Docs: [@Click Here](https://docs.google.com/document/d/1CsG6QS6Hh-T6x-luJoGlx2eJq6CXvfbwKB7977bjc8o/edit?tab=t.0#heading=h.19m67h56174d)
+
+---
+
 ## 👤 Author
 
 **Muhammad Samir**
