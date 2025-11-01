@@ -31,14 +31,14 @@ A **telecom company** has requested your expertise as an **ETL Developer** to de
 
 The following diagram shows the complete SSIS ETL workflow for telecom data:
 
-```mermaid
-flowchart LR
-A[📁 CSV File (Every 5 mins)] --> B[📤 Extract Data (Flat File Source)]
-B --> C[🔍 Transform Data (Derived Column / Lookup)]
-C --> D{✅ Validation Rules Pass?}
-D -->|Yes| E[💾 Load to SQL: Telecom_Transactions]
-D -->|No| F[🚫 Load to SQL: Rejected_Transactions]
-E --> G[🧮 Log KPIs (ETL_Audit_Log)]
+```
+A[📁 CSV File (Every 5 mins)] -->
+B[📤 Extract Data (Flat File Source)]-->
+C[🔍 Transform Data (Derived Column / Lookup)]-->
+D{✅ Validation Rules Pass?} -->
+|Yes| E[💾 Load to SQL: Telecom_Transactions]
+|No| F[🚫 Load to SQL: Rejected_Transactions]-->
+G[🧮 Log KPIs (ETL_Audit_Log)]
 F --> G
 G --> H[📦 Move CSV to Archive Folder]
 ```
@@ -172,11 +172,11 @@ These KPIs help you **monitor ETL performance** and **data quality** for every f
 
 By completing this project, you will have:
 
-✅ A working **ETL solution using SSIS**
-✅ Automatic **data validation and cleansing**
-✅ Complete **audit trail and KPI monitoring**
-✅ Understanding of **Telecom Data Structures**
-✅ Real-world ETL workflow knowledge
+✅  A working **ETL solution using SSIS**
+✅  Automatic **data validation and cleansing**
+✅  Complete **audit trail and KPI monitoring**
+✅  Understanding of **Telecom Data Structures**
+✅  Real-world ETL workflow knowledge
 
 ---
 
